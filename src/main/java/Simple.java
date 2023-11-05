@@ -1,4 +1,4 @@
-public class simple {
+public class Simple {
     public static void main (String[] args) {
         System.out.println("Тренировка с операторами");
         byte num0 = 100;
@@ -24,6 +24,8 @@ public class simple {
 
         int a = 10;
         double b = 12.5;
+        int maxInt = Integer.MAX_VALUE;
+        int sum = maxInt + 1;
 
         if (a > b) {
             System.out.println("a + b = " + a + b);
@@ -31,11 +33,14 @@ public class simple {
         else {
             System.out.println("b / a = " + b / a);
         }
+
         System.out.println("a + b = " + a + b);
         System.out.println("a + b = " + a * b);
         System.out.println("b++ = " + b++);
         System.out.println("++b = " + ++b);
         System.out.println("b-- = " + b--);
         System.out.println("--b = " + --b);
+        System.out.println("Переполнение " + sum);
+
     }
 }
